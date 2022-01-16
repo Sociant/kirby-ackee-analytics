@@ -1,0 +1,26 @@
+{
+    "name": "sociant/ackee-analytics",
+    "description": "KirbyCMS plugin to geneate dynamic tracking-scripts for Ackee.",
+    "keywords": ["analytics", "ackee", "kirbycms","kirby-plugin","script"],
+    "homepage": "https://github.com/Sociant/kirby-ackee-analytics",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Voges (Sociant)",
+            "email": "info@sociant.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "getkirby/composer-installer": "^1.1"
+    },
+    "autoload": {
+        "files": [
+            "utilities.php"
+        ],
+        "psr-4": {
+            "Sociant\\AckeeAnalytics\\": "src/"
+        }
+    }
+}
