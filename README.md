@@ -23,7 +23,7 @@ Add the plugin to your submodules
 
 ```
 # Open from root directory of your project
-git submodule add https://github.com/Sociant/kirby-ackee-analytics.git site/plugins/ackee-analytics
+git submodule add https://github.com/Sociant/kirby-ackee-analytics.git site/plugins/kirby-ackee-analytics
 ```
 
 Add the plugin to your template by adding this line to a header-element
